@@ -1,0 +1,48 @@
+Here is a **shortened and clear description** of the required functionality and technologies for the **Jewelry Online Management System**, covering **both user and vendor** perspectives:
+
+---
+
+### 💎 Jewelry Online Management System – Summary of Functionalities and Technologies
+
+#### ✅ **Core Functionalities**
+
+The system is a **web-based platform** that automates jewelry business processes, eliminating manual inefficiencies like stock mismanagement, sales errors, and poor customer engagement. It serves both **vendors** (business owners, inventory managers) and **users** (customers) by enabling:
+
+#### For **Users (Customers)**:
+- **Online browsing** of jewelry with descriptions, prices, and images  
+- **Secure order placement** with real-time stock availability  
+- **Online payments** via integrated payment gateway  
+- **Order tracking** from purchase to delivery  
+- **Account creation and management** for personalized experience
+
+#### For **Vendors (Store Owners & Employees)**:
+- **Inventory tracking** with automatic stock level updates and alerts  
+- **Real-time sales recording** and automated report generation  
+- **User access control** for admin, store manager, inventory staff  
+- **Customer management**, including feedback and inquiries  
+- **Financial records automation** to track profits and losses  
+- **Bulk product uploading** and price management  
+
+---
+
+### 🧪 **Development Technologies Used**
+
+| Area | Technologies |
+|------|--------------|
+| **Frontend (User Interface)** | HTML, CSS, Bootstrap, JavaScript |
+| **Backend (Server-Side)** | PHP |
+| **Database Management** | MySQL |
+| **Server Environment** | XAMPP |
+| **Design & Analysis Tools** | ER diagrams, flowcharts, data dictionary, wireframes |
+| **Development Methodology** | Agile – iterative, sprint-based development with feedback from stakeholders |
+
+---
+
+### 🌍 Benefits of the System
+- 24/7 product access and purchases  
+- Reduced errors in sales and stock tracking  
+- Faster financial decision-making with accurate reports  
+- Enhanced customer experience and loyalty  
+- Scalability to support business growth  
+
+---

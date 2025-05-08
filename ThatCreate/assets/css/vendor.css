@@ -1,0 +1,141 @@
+/* Vendor Portal Specific Styles */
+
+.vendor-portal {
+    background-color: #f8f9fa;
+}
+
+.vendor-portal .navbar-brand {
+    font-weight: bold;
+}
+
+.vendor-portal .card {
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.vendor-portal .card:hover {
+    transform: translateY(-5px);
+}
+
+.vendor-portal .stat-card {
+    border-left: 4px solid #007bff;
+    background-color: white;
+}
+
+.vendor-portal .stat-card.revenue {
+    border-left-color: #28a745;
+}
+
+.vendor-portal .stat-card.orders {
+    border-left-color: #fd7e14;
+}
+
+.vendor-portal .stat-card.products {
+    border-left-color: #6f42c1;
+}
+
+.vendor-portal .stat-card .stat-icon {
+    font-size: 2.5rem;
+    opacity: 0.2;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.vendor-portal .table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.vendor-portal .product-thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.vendor-portal .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.vendor-portal .btn-vendor {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.vendor-portal .btn-vendor:hover {
+    background-color: #5a32a3;
+    color: white;
+}
+
+/* Status badges */
+.vendor-portal .badge-pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.vendor-portal .badge-shipped {
+    background-color: #17a2b8;
+}
+
+.vendor-portal .badge-delivered {
+    background-color: #28a745;
+}
+
+.vendor-portal .badge-cancelled {
+    background-color: #dc3545;
+}
+
+/* Product form */
+.vendor-portal .product-form label {
+    font-weight: 500;
+}
+
+.vendor-portal .product-preview {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Dashboard charts */
+.vendor-portal .chart-container {
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+/* Profile page */
+.vendor-portal .profile-header {
+    background-color: #007bff;
+    color: white;
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.vendor-portal .profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .vendor-portal .stat-card {
+        margin-bottom: 15px;
+    }
+    
+    .vendor-portal .profile-avatar {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .vendor-portal .chart-container {
+        height: 200px;
+    }
+}
